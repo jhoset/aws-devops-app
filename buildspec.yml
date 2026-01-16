@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "No se necesita compilación para archivos estáticos."
+
+artifacts:
+  files:
+    - "**/*"
